@@ -19,3 +19,26 @@
   transform: scale(1.03);
   filter: brightness(1.05);
 }
+@media (max-width: 768px) {
+.home-one-provide-section {
+  padding-top: 60px;
+}
+}
+.mobile-get-in-touch {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .mobile-get-in-touch {
+        display: block;
+        margin: 20px auto; 
+        padding: 15px;
+        background-color: #ffbb5c; 
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        width: 90%;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+}
