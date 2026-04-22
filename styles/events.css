@@ -96,7 +96,7 @@
 
 .view-link {
     margin-top: 20px;
-    color: #ff4006;
+    color: #ffbb5c;
     font-weight: 600;
 }
 
@@ -113,4 +113,30 @@
     .year-header { font-size: 3rem; }
     .event-horizontal-card { flex-direction: column; }
     .card-img-box, .card-text-box { width: 100%; }
+}
+
+.year-block {
+    position: relative; 
+    margin-bottom: 50px;
+}
+
+.year-header {
+    position: absolute; 
+    top: -30px; 
+    left: 20px;
+    font-size: 6rem; 
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.1); 
+    z-index: 10; 
+    pointer-events: none; 
+}
+
+.event-horizontal-card {
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
 }
