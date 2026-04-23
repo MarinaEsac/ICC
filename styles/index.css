@@ -16850,3 +16850,45 @@ blockquote {
         font-weight: bold;
     }
 }
+.home-three-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.home-three-benefits-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    min-height: 250px; 
+}
+
+.step-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f1a34a; 
+    margin-bottom: 20px;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+}
+
+.margin-bottom-none {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #1a2b48; 
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .home-three-benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
