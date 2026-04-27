@@ -839,7 +839,7 @@
  <section class="event-details-page">
     <div class="container">
         <div class="event-header-top text-center">
-            <img src="./assets/egybeauty-logo (2).jpeg" alt="EgyBeauty Logo" class="event-vendor-logo" loading="lazy">
+            <img id="eventLogo" src="" alt="Event Logo" class="event-vendor-logo" loading="lazy">
             <h1 class="display-year" id="yearTitle">2025</h1>
             <div class="divider"></div>
         </div>
@@ -849,16 +849,27 @@
     </div>
 </section>
 <script>
+const eventLogos = {
+    "2025": "egybeauty-logo (2).jpeg",
+    "2024": "egybeauty-logo (2).jpeg",
+    "2023": "egybeauty-logo (2).jpeg",
+    "2021": "egybeauty-logo (2).jpeg",
+    "2026": "ple-logo.png"
+};
+
 const urlParams = new URLSearchParams(window.location.search);
 const selectedYear = urlParams.get('year') || '2025'; 
 
 document.getElementById('yearTitle').innerText = selectedYear;
 
+const logo = eventLogos[selectedYear] || "egybeauty-logo (2).jpeg";
+document.getElementById("eventLogo").src = `./assets/${logo}`;
+
 const eventData = {
     "2025": [
         "img1-2025.jpg" 
     ],
-   "2024": [
+    "2024": [
         "egy-beauty24(1).webp",
         "egy-beauty24(2).webp",
         "egy-beauty24(3).webp",
@@ -870,7 +881,7 @@ const eventData = {
         "egy-beauty24(44).webp",
         "egy-beauty24.webp"
     ],
-     "2023": [
+    "2023": [
         "egy-beauty23(1).webp",
         "egy-beauty23(2).webp",
         "egy-beauty23(3).webp",
@@ -893,7 +904,7 @@ const eventData = {
         "egy-beauty23(20).webp",
         "egy-beauty23(21).webp"
     ],
-     "2021": [
+    "2021": [
         "egy-beauty21(1).webp",
         "egy-beauty21(2).webp",
         "egy-beauty21(3).webp",
@@ -905,7 +916,18 @@ const eventData = {
         "egy-beauty21(9).webp",
         "egy-beauty21(10).webp",
         "egy-beauty21(11).webp",
-        "egy-beauty21(12).webp"    ]
+        "egy-beauty21(12).webp"    
+    ],
+    "2026": [
+        "private-label26(10).webp",
+        "private-label26(2).webp",
+        "private-label26(3).webp",
+        "private-label26(4).webp",
+        "private-label26(5).webp",
+        "private-label26(7).webp",
+        "private-label26(8).webp",
+        "private-label26.webp"
+    ],
 };
 
 const container = document.getElementById('photosContainer');

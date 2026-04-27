@@ -4,8 +4,8 @@
 }
 
 .event-vendor-logo {
-    max-width: 120px;
-    margin-bottom: 20px;
+    max-width: 90px;
+    /* margin-bottom: 4px; */
     transition: 0.3s;
 }
 
