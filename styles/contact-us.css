@@ -16460,7 +16460,7 @@ blockquote {
 @media (max-width: 768px) {
     .footer-content-wrapper {
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
     .footer-links-grid {
         width: 100%;
@@ -16562,5 +16562,30 @@ blockquote {
         width: 90%;
         border-radius: 8px;
         font-weight: bold;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer-links-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px; 
+    }
+
+    .footer-links-grid .footer-link-col:nth-child(2) {
+        grid-column: 2;
+        grid-row: 1;   
+    }
+
+    .footer-links-grid .footer-link-col:nth-child(1) {
+        grid-column: 1; 
+        grid-row: 1;    
+    }
+
+    .footer-social-col {
+        grid-column: span 2; 
+        grid-row: 2;         
+        text-align: center;  
     }
 }
