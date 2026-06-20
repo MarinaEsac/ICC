@@ -13198,7 +13198,7 @@ blockquote {
   }
 
   .home-three-provide-section {
-    padding-bottom: 70px;
+    padding-bottom: 30px;
   }
 
   .home-three-service-outer-flex {
@@ -16728,8 +16728,8 @@ blockquote {
 
 @media (max-width: 767px) {
     .home-one-provide-section {
-        margin-top: 60px !important; 
-        padding-top: 20px;
+        margin-top: 2px !important; 
+        /* padding-top: 20px; */
     }
 
     .home-one-provide-block {
