@@ -2048,14 +2048,14 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --body-font: #5d6066;
-  --heading-main-color: #022a5b;
+  --heading-main-color: #294B52;
   --pale-yellow: #ffbb5c;
   --transparent: transparent;
   --white: white;
   --light-white: #ffffffb3;
   --border-twenty: 20px;
   --light-background: #fffaf4;
-  --heading-color: #060f1a;
+  --heading-color: #294B52;
   --footer-color: #141a29;
   --deep-grey: #aa9b86;
 }
@@ -3269,7 +3269,7 @@ h4 {
 }
 
 h5 {
-  color: #060f1a;
+  color: #294B52;
   letter-spacing: 0;
   text-transform: capitalize;
   margin-top: 10px;
@@ -6128,7 +6128,7 @@ blockquote {
 .benefits-moving-number {
   color: #0000;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #060f1a;
+  -webkit-text-stroke-color: #294B52;
   border-right: 1px solid #92969c;
   flex-direction: column;
   flex: 1;
@@ -7104,7 +7104,7 @@ blockquote {
 }
 
 .contact-one-form-submit-btn {
-  color: #060f1a;
+  color: #294B52;
   background-color: #ffbb5c;
   padding: 19px 34px;
   font-size: .9375rem;
@@ -7280,7 +7280,7 @@ blockquote {
   color: #8c714b;
   background-color: #0000;
   border: 1px #000;
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #294B52;
   height: 25px;
   padding-left: 0;
   padding-right: 5px;
@@ -7561,7 +7561,7 @@ blockquote {
 .awards-number {
   color: #3330;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #060f1a;
+  -webkit-text-stroke-color: #294B52;
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 3.125rem;
@@ -7909,7 +7909,7 @@ blockquote {
 }
 
 .book-form-submit-btn {
-  color: #060f1a;
+  color: #294B52;
   background-color: #ffbb5c;
   width: 100%;
   max-width: 390px;
@@ -8574,7 +8574,7 @@ blockquote {
 }
 
 .shop-price-tag {
-  color: #060f1a;
+  color: #294B52;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -9264,7 +9264,7 @@ blockquote {
 }
 
 .heading-five-2 {
-  color: #060f1a;
+  color: #294B52;
   text-transform: capitalize;
   font-size: .875rem;
   line-height: 1.5rem;
@@ -9665,7 +9665,7 @@ blockquote {
 
 .display-examples {
   grid-column-gap: 40px;
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #294B52;
   grid-template-rows: auto;
   grid-template-columns: minmax(auto, 300px) 1fr;
   align-items: center;
@@ -9787,7 +9787,7 @@ blockquote {
 }
 
 .typography-sub-heading-wrapper {
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #294B52;
   margin-bottom: 60px;
   padding-bottom: 40px;
 }
@@ -9845,7 +9845,7 @@ blockquote {
 }
 
 .style-color-wrapper.color-type-one {
-  background-color: #060f1a;
+  background-color: #294B52;
 }
 
 .style-color-wrapper.color-type-two {
@@ -10476,7 +10476,7 @@ blockquote {
 
 .cart-quantity {
   background-color: var(--pale-yellow);
-  color: #060f1a;
+  color: #294B52;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -16335,14 +16335,14 @@ blockquote {
   }
 }
 .navbar-section {
-    background-color: #060f1a;
+    background-color: #294B52;
 }
 .button-main {
     background-color: #ffbb5c;
 }
 
 .main-footer {
-    background-color: #060F1A; 
+    background-color: #294B52; 
     color: #ffffff;
     padding-top: 60px;
     font-family: sans-serif;
@@ -16386,7 +16386,7 @@ blockquote {
     display: inline-block;
     padding: 12px 30px;
     background-color: #FFBB5C;
-    color: #060F1A;
+    color: #294B52;
     text-decoration: none;
     font-weight: 600;
     border-radius: 5px;
@@ -16447,11 +16447,11 @@ blockquote {
 
 .social-link:hover {
     background-color: #FFBB5C;
-    color: #060F1A;
+    color: #294B52;
 }
 
 .footer-bottom {
-    background-color: #040a12;
+    background-color: #294B52;
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid #1a222c;
@@ -16460,7 +16460,7 @@ blockquote {
 .footer-bottom p {
     margin: 0;
     font-size: 14px;
-    color: #777;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -16508,7 +16508,7 @@ blockquote {
 }
 
 .section-title {
-    color: #001a35; /* Dark Blue */
+    color: #294B52; /* Dark Blue */
     font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -16586,7 +16586,7 @@ blockquote {
 
 .view-cert-btn:hover {
     background: #fff;
-    color: #001a35;
+    color: #294B52;
 }
 
 .cert-info {
@@ -16596,7 +16596,7 @@ blockquote {
 
 .cert-info h3 {
     font-size: 1.2rem;
-    color: #001a35;
+    color: #294B52;
     margin-bottom: 8px;
     font-weight: 700;
 }
