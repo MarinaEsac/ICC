@@ -7,7 +7,7 @@
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  color: #0b2641;
+  color: #111;
   margin-bottom: 50px;
   position: relative;
 }
@@ -16,7 +16,7 @@
   content: "";
   width: 60px;
   height: 3px;
-  background: #ff4006;
+  background: #ffbb5c;
   display: block;
   margin: 12px auto 0;
   border-radius: 2px;
@@ -48,15 +48,15 @@
 .product-card:hover {
   /* transform: translateY(-6px); */
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
-  border-color: #ff4006;
-  color: #0b2641;
+  border-color: #ffbb5c;
+  color: #111;
 }
 
 .product-card::before {
   content: "✦";
   display: block;
   font-size: 18px;
-  color: #ff4006;
+  color: #ffbb5c;
   margin-bottom: 10px;
   opacity: 0.6;
   transition: 0.3s;

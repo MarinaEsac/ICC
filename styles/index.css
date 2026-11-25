@@ -2048,7 +2048,7 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --body-font: #5d6066;
-  --heading-main-color: #022a5b;
+  --heading-main-color: #111;
   --pale-yellow: #ffbb5c;
   --transparent: transparent;
   --white: white;
@@ -5417,7 +5417,7 @@ blockquote {
 }
 
 .home-three-about-section {
-  background-image: url("https://cdn.prod.website-files.com/6514fcb62305724bd718a07d/6516686333d9510e3656cc80_Leaders-Bg.webp");
+  background-image: url("../assets/bg.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5473,7 +5473,7 @@ blockquote {
 }
 
 .counter-text {
-  color: #cecfd0;
+  color: black;
   font-family: Poppins, sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
@@ -16588,7 +16588,7 @@ blockquote {
 }
 
 .main-footer {
-    background-color: #294B52; 
+    background-color: #111; 
     color: #ffffff;
     padding-top: 60px;
     font-family: sans-serif;
@@ -16697,7 +16697,7 @@ blockquote {
 }
 
 .footer-bottom {
-    background-color: #040a12;
+    background-color: #111;
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid #1a222c;

@@ -5,7 +5,7 @@
 
 .events-split-container {
     display: flex;
-    flex-direction: row-reverse; 
+    /* flex-direction: row-reverse;  */
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
@@ -20,13 +20,13 @@
     display: flex;
     align-items: center;
     padding: 60px;
-    border-left: 1px solid rgba(11, 38, 65, 0.1);
+    /* border-left: 1px solid rgba(11, 38, 65, 0.1); */
 }
 
 .sticky-content h2 {
     font-family: 'Lora', serif;
     font-size: 3.5rem;
-    color: #0b2641;
+    color: #111;
     margin-bottom: 20px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .card-text-box h3 {
-    color: #0b2641;
+    color: #111;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
 }
@@ -140,3 +140,4 @@
     overflow: hidden;
     text-decoration: none;
 }
+

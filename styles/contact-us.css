@@ -2048,14 +2048,14 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --body-font: #5d6066;
-  --heading-main-color: #022a5b;
-  --pale-yellow: #ffbb5c;
+  --heading-main-color: #111;
+  --pale-yellow: #FFBB5C;
   --transparent: transparent;
   --white: white;
   --light-white: #ffffffb3;
   --border-twenty: 20px;
   --light-background: #fffaf4;
-  --heading-color: #060f1a;
+  --heading-color: #111;
   --footer-color: #141a29;
   --deep-grey: #aa9b86;
 }
@@ -3269,7 +3269,7 @@ h4 {
 }
 
 h5 {
-  color: #060f1a;
+  color: #111;
   letter-spacing: 0;
   text-transform: capitalize;
   margin-top: 10px;
@@ -3420,7 +3420,7 @@ blockquote {
 }
 
 .nav-sticky-bg {
-  background-color: #060f1a;
+  background-color: #111;
   border-bottom: 1px #525558;
   position: absolute;
   inset: 0%;
@@ -3962,7 +3962,7 @@ blockquote {
 }
 
 .margin-top-zero.color-yellow {
-  color: #ffbb5c;
+  color: #FFBB5C;
 }
 
 .margin-top-zero.blog-news-text-heading {
@@ -4955,7 +4955,7 @@ blockquote {
 }
 
 .accodian-arrow-line {
-  border: 1px solid #ffbb5c;
+  border: 1px solid #FFBB5C;
   border-radius: 100%;
   flex-direction: column;
   flex: none;
@@ -5303,7 +5303,7 @@ blockquote {
 }
 
 .home-three-project-img-block {
-  color: #ffbb5c;
+  color: #FFBB5C;
   text-transform: uppercase;
   flex: 1;
   justify-content: center;
@@ -5331,7 +5331,7 @@ blockquote {
 }
 
 .home-three-key-circle {
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   border-radius: 100%;
   width: 12px;
   height: 12px;
@@ -5379,7 +5379,7 @@ blockquote {
 }
 
 .number-img-bg-inner {
-  color: #ffbb5c;
+  color: #FFBB5C;
   background-image: url("https://cdn.prod.website-files.com/6514fcb62305724bd718a07d/65268966afe073529a480cdb_Number-Circle.webp");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -5641,7 +5641,7 @@ blockquote {
 }
 
 .about-two-counter-heading {
-  color: #ffbb5c;
+  color: #FFBB5C;
   margin-bottom: 20px;
   font-family: Open Sans, sans-serif;
   font-size: 2.5rem;
@@ -5994,7 +5994,7 @@ blockquote {
 }
 
 .about-testimonial-left-arrow {
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   border-radius: 100%;
   flex-direction: column;
   justify-content: center;
@@ -6028,7 +6028,7 @@ blockquote {
 }
 
 .about-testimonial-right-arrow {
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   border-radius: 100%;
   flex-direction: column;
   justify-content: center;
@@ -6128,7 +6128,7 @@ blockquote {
 .benefits-moving-number {
   color: #0000;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #060f1a;
+  -webkit-text-stroke-color: #111;
   border-right: 1px solid #92969c;
   flex-direction: column;
   flex: 1;
@@ -6266,7 +6266,7 @@ blockquote {
 .about-one-mission-flex-block:hover {
   background-color: #fff;
   border-color: #fff;
-  box-shadow: 14px 14px 0 -1px #ffbb5c;
+  box-shadow: 14px 14px 0 -1px #FFBB5C;
 }
 
 .about-one-values-left {
@@ -6404,7 +6404,7 @@ blockquote {
 }
 
 .oil-text {
-  color: #ffbb5c;
+  color: #FFBB5C;
 }
 
 .learn-more-paragraph-block {
@@ -6483,7 +6483,7 @@ blockquote {
 }
 
 .color-yellow {
-  color: #ffbb5c;
+  color: #FFBB5C;
 }
 
 .service-one-counter-text {
@@ -6702,7 +6702,7 @@ blockquote {
 }
 
 .energy-landscape-img-two:hover {
-  box-shadow: -14px 14px 0 -1px #ffbb5c;
+  box-shadow: -14px 14px 0 -1px #FFBB5C;
 }
 
 .service-one-together-one {
@@ -7104,13 +7104,21 @@ blockquote {
 }
 
 .contact-one-form-submit-btn {
-  color: #060f1a;
-  background-color: #ffbb5c;
+  /* color: #111;
+  background-color: #FFBB5C;
   padding: 19px 34px;
   font-size: .9375rem;
   font-weight: 500;
   line-height: 100%;
-  transition: transform .2s;
+  transition: transform .2s; */
+      display: inline-block;
+    padding: 12px 30px;
+    background-color: #FFBB5C;
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .contact-one-form-submit-btn:hover {
@@ -7280,7 +7288,7 @@ blockquote {
   color: #8c714b;
   background-color: #0000;
   border: 1px #000;
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #111;
   height: 25px;
   padding-left: 0;
   padding-right: 5px;
@@ -7561,7 +7569,7 @@ blockquote {
 .awards-number {
   color: #3330;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #060f1a;
+  -webkit-text-stroke-color: #111;
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 3.125rem;
@@ -7673,7 +7681,7 @@ blockquote {
 }
 
 .overflow-none.border-radius-twenty.award-hero-image-one:hover {
-  box-shadow: 14px 14px 0 -1px #ffbb5c;
+  box-shadow: 14px 14px 0 -1px #FFBB5C;
 }
 
 .overflow-none.award-hero-heading-wrap {
@@ -7716,7 +7724,7 @@ blockquote {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   color: #000;
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   border-radius: 50px;
   padding: 5px 25px;
 }
@@ -7909,8 +7917,8 @@ blockquote {
 }
 
 .book-form-submit-btn {
-  color: #060f1a;
-  background-color: #ffbb5c;
+  color: #111;
+  background-color: #FFBB5C;
   width: 100%;
   max-width: 390px;
   padding: 19px 34px;
@@ -8161,7 +8169,7 @@ blockquote {
 
 .popular-casses-link {
   grid-column-gap: 8px;
-  color: #ffbb5c;
+  color: #FFBB5C;
   align-items: center;
   font-size: .875rem;
   font-weight: 600;
@@ -8272,7 +8280,7 @@ blockquote {
 }
 
 .overlay {
-  background-image: linear-gradient(#0000, #060f1acc);
+  background-image: linear-gradient(#0000, #111);
   position: absolute;
   inset: 0%;
 }
@@ -8358,7 +8366,7 @@ blockquote {
 }
 
 .experties-details-image-block:hover {
-  box-shadow: -15px -14px 0 -1px #ffbb5c;
+  box-shadow: -15px -14px 0 -1px #FFBB5C;
 }
 
 .experties-details-heading {
@@ -8434,7 +8442,7 @@ blockquote {
 }
 
 .management-background-overlay {
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   position: absolute;
   inset: 0%;
 }
@@ -8574,7 +8582,7 @@ blockquote {
 }
 
 .shop-price-tag {
-  color: #060f1a;
+  color: #111;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -8669,7 +8677,7 @@ blockquote {
 .accordion-item-trigger {
   grid-column-gap: 30px;
   cursor: pointer;
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   border-bottom: 1px solid #000;
   align-items: center;
   padding: 30px;
@@ -8936,7 +8944,7 @@ blockquote {
 
 .overlay-hover {
   z-index: 1;
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   position: absolute;
   inset: 0%;
   transform: translate(-100%);
@@ -9264,7 +9272,7 @@ blockquote {
 }
 
 .heading-five-2 {
-  color: #060f1a;
+  color: #111;
   text-transform: capitalize;
   font-size: .875rem;
   line-height: 1.5rem;
@@ -9665,7 +9673,7 @@ blockquote {
 
 .display-examples {
   grid-column-gap: 40px;
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #111;
   grid-template-rows: auto;
   grid-template-columns: minmax(auto, 300px) 1fr;
   align-items: center;
@@ -9787,7 +9795,7 @@ blockquote {
 }
 
 .typography-sub-heading-wrapper {
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #111;
   margin-bottom: 60px;
   padding-bottom: 40px;
 }
@@ -9820,7 +9828,7 @@ blockquote {
 }
 
 .style-guide-icon-wrap {
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   border-radius: 15px;
   justify-content: center;
   align-items: center;
@@ -9841,11 +9849,11 @@ blockquote {
 }
 
 .style-color-wrapper.secondary-color-one {
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
 }
 
 .style-color-wrapper.color-type-one {
-  background-color: #060f1a;
+  background-color: #111;
 }
 
 .style-color-wrapper.color-type-two {
@@ -10357,7 +10365,7 @@ blockquote {
   color: #484848;
   letter-spacing: -.03125rem;
   background-color: #3330;
-  border-left: 3px solid #ffbb5c;
+  border-left: 3px solid #FFBB5C;
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 1.375rem;
@@ -10476,7 +10484,7 @@ blockquote {
 
 .cart-quantity {
   background-color: var(--pale-yellow);
-  color: #060f1a;
+  color: #111;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -10503,7 +10511,7 @@ blockquote {
 }
 
 .outline-main-cirlce {
-  border: 6px solid #ffbb5c;
+  border: 6px solid #FFBB5C;
   border-radius: 100%;
   width: 157px;
   min-width: 157px;
@@ -10999,7 +11007,7 @@ blockquote {
 
 .work-pogress-yellow-line {
   z-index: 1;
-  border-bottom: 1px dashed #ffbb5c;
+  border-bottom: 1px dashed #FFBB5C;
   width: 0%;
   position: absolute;
   top: 50%;
@@ -11053,7 +11061,7 @@ blockquote {
 }
 
 .about-three-mission-card-heading-line {
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   width: 32px;
   height: 1px;
 }
@@ -11192,7 +11200,7 @@ blockquote {
 
 .product-card-overlay {
   z-index: -1;
-  background-color: #ffbb5c;
+  background-color: #FFBB5C;
   align-items: flex-end;
   position: absolute;
   inset: 0%;
@@ -11289,7 +11297,7 @@ blockquote {
 }
 
 .contact-three-contain-box {
-  border-left: 10px solid #ffbb5c;
+  border-left: 10px solid #FFBB5C;
   margin-top: 76px;
   padding-left: 30px;
 }
@@ -13589,7 +13597,7 @@ blockquote {
   }
 
   .about-one-mission-flex-block:hover {
-    box-shadow: 11px 11px 0 -1px #ffbb5c;
+    box-shadow: 11px 11px 0 -1px #FFBB5C;
   }
 
   .about-one-values-section {
@@ -13598,7 +13606,7 @@ blockquote {
   }
 
   .about-one-values-left-img:hover {
-    box-shadow: -10px 11px 0 -1px #ffbb5c;
+    box-shadow: -10px 11px 0 -1px #FFBB5C;
   }
 
   .about-one-values-block {
@@ -15250,7 +15258,7 @@ blockquote {
   }
 
   .about-one-values-left-img:hover {
-    box-shadow: -8px 9px 0 -1px #ffbb5c;
+    box-shadow: -8px 9px 0 -1px #FFBB5C;
   }
 
   .about-one-our-values-flex {
@@ -16336,7 +16344,7 @@ blockquote {
 }
 
 .main-footer {
-    background-color: #060F1A; 
+    background-color: #111; 
     color: #ffffff;
     padding-top: 60px;
     font-family: sans-serif;
@@ -16380,7 +16388,7 @@ blockquote {
     display: inline-block;
     padding: 12px 30px;
     background-color: #FFBB5C;
-    color: #060F1A;
+    color: #111;
     text-decoration: none;
     font-weight: 600;
     border-radius: 5px;
@@ -16441,11 +16449,11 @@ blockquote {
 
 .social-link:hover {
     background-color: #FFBB5C;
-    color: #060F1A;
+    color: #111;
 }
 
 .footer-bottom {
-    background-color: #040a12;
+    background-color: #111;
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid #1a222c;
@@ -16544,7 +16552,7 @@ blockquote {
     }
 }
 .navbar-section {
-    background-color: #060f1a;
+    background-color: #111;
 }
 .mobile-get-in-touch {
     display: none;
@@ -16555,7 +16563,7 @@ blockquote {
         display: block;
         margin: 20px auto; 
         padding: 15px;
-        background-color: #ffbb5c; 
+        background-color: #FFBB5C; 
         color: #000;
         text-align: center;
         text-decoration: none;
