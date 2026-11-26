@@ -16826,8 +16826,8 @@ blockquote {
 
 .about-us-side-label {
     position: absolute;
-    left: 9.2%;
-    top: 28.8%;
+    left: 5.4%;
+    top: 24.6%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16846,7 +16846,7 @@ blockquote {
 }
 
 .about-us-side-line {
-    width: 1px;
+    width: 1.2px;
     height: 220px;
     background: #c0ccdb;
 }
