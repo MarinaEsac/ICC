@@ -2055,8 +2055,8 @@ textarea.w-input, textarea.w-select {
   --light-white: #ffffffb3;
   --border-twenty: 20px;
   --light-background: #fffaf4;
-  --heading-color: #060f1a;
-  --footer-color: #141a29;
+  --heading-color: #111;
+  --footer-color: #111;
   --deep-grey: #aa9b86;
 }
 
@@ -3269,7 +3269,7 @@ h4 {
 }
 
 h5 {
-  color: #060f1a;
+  color: #111;
   letter-spacing: 0;
   text-transform: capitalize;
   margin-top: 10px;
@@ -3437,7 +3437,7 @@ blockquote {
 }
 
 .nav-sticky-bg.transparent.no-border.landing-nav-bg {
-  background-color: #141a29;
+  background-color: #111;
 }
 
 .nav-link-drop {
@@ -3486,7 +3486,7 @@ blockquote {
 }
 
 .menu-link-toggle:hover {
-  color: #344054;
+  color: #111;
 }
 
 .menu-link-toggle.white-menu {
@@ -4137,7 +4137,7 @@ blockquote {
 }
 
 .home-one-project-section {
-  background-color: #141a29;
+  background-color: #111;
   padding-top: 110px;
   padding-bottom: 115px;
 }
@@ -4304,7 +4304,7 @@ blockquote {
 }
 
 .home-one-footer-section {
-  background-color: #141a29;
+  background-color: #111;
   padding-top: 107px;
 }
 
@@ -5396,9 +5396,9 @@ blockquote {
   display: flex;
 }
 
-.number-img-bg-inner:hover {
+/* .number-img-bg-inner:hover {
   background-image: url("https://cdn.prod.website-files.com/6514fcb62305724bd718a07d/65268966b9b4730c56dae03f_Number-Hover-Cir.webp");
-}
+} */
 
 .home-three-number-heading {
   margin-bottom: 5px;
@@ -5480,7 +5480,7 @@ blockquote {
 }
 
 .home-two-footer-quick-link-section {
-  background-color: #141a29;
+  background-color: #111;
 }
 
 .home-three-footer-flex-outer {
@@ -5520,7 +5520,7 @@ blockquote {
 }
 
 .home-two-footer-copyright-section {
-  background-color: #141a29;
+  background-color: #111;
   border-top: 1px solid #62626299;
 }
 
@@ -6128,7 +6128,7 @@ blockquote {
 .benefits-moving-number {
   color: #0000;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #060f1a;
+  -webkit-text-stroke-color: #111;
   border-right: 1px solid #92969c;
   flex-direction: column;
   flex: 1;
@@ -6557,7 +6557,7 @@ blockquote {
 }
 
 .service-one-choose-us-section {
-  background-color: #141a29;
+  background-color: #111;
   background-image: none;
   background-position: 0 0;
   background-repeat: repeat;
@@ -6889,7 +6889,7 @@ blockquote {
 }
 
 .service-two-leading-way-section {
-  background-color: #141a29;
+  background-color: #111;
   padding-top: 110px;
   padding-bottom: 110px;
 }
@@ -7104,7 +7104,7 @@ blockquote {
 }
 
 .contact-one-form-submit-btn {
-  color: #060f1a;
+  color: #111;
   background-color: #ffbb5c;
   padding: 19px 34px;
   font-size: .9375rem;
@@ -7280,7 +7280,7 @@ blockquote {
   color: #8c714b;
   background-color: #0000;
   border: 1px #000;
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #111;
   height: 25px;
   padding-left: 0;
   padding-right: 5px;
@@ -7561,7 +7561,7 @@ blockquote {
 .awards-number {
   color: #3330;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #060f1a;
+  -webkit-text-stroke-color: #111;
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 3.125rem;
@@ -7909,7 +7909,7 @@ blockquote {
 }
 
 .book-form-submit-btn {
-  color: #060f1a;
+  color: #111;
   background-color: #ffbb5c;
   width: 100%;
   max-width: 390px;
@@ -8272,7 +8272,7 @@ blockquote {
 }
 
 .overlay {
-  background-image: linear-gradient(#0000, #060f1acc);
+  background-image: linear-gradient(#0000, #111);
   position: absolute;
   inset: 0%;
 }
@@ -8574,7 +8574,7 @@ blockquote {
 }
 
 .shop-price-tag {
-  color: #060f1a;
+  color: #111;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -8864,7 +8864,7 @@ blockquote {
 }
 
 .figma-file-wrap {
-  background-color: #141a29;
+  background-color: #111;
   border: 1px solid #d8cece;
   border-bottom-style: none;
   flex-direction: column;
@@ -9264,7 +9264,7 @@ blockquote {
 }
 
 .heading-five-2 {
-  color: #060f1a;
+  color: #111;
   text-transform: capitalize;
   font-size: .875rem;
   line-height: 1.5rem;
@@ -9665,7 +9665,7 @@ blockquote {
 
 .display-examples {
   grid-column-gap: 40px;
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #111;
   grid-template-rows: auto;
   grid-template-columns: minmax(auto, 300px) 1fr;
   align-items: center;
@@ -9787,7 +9787,7 @@ blockquote {
 }
 
 .typography-sub-heading-wrapper {
-  border-bottom: 1px solid #060f1a;
+  border-bottom: 1px solid #111;
   margin-bottom: 60px;
   padding-bottom: 40px;
 }
@@ -9845,7 +9845,7 @@ blockquote {
 }
 
 .style-color-wrapper.color-type-one {
-  background-color: #060f1a;
+  background-color: #111;
 }
 
 .style-color-wrapper.color-type-two {
@@ -10476,7 +10476,7 @@ blockquote {
 
 .cart-quantity {
   background-color: var(--pale-yellow);
-  color: #060f1a;
+  color: #111;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -10947,7 +10947,7 @@ blockquote {
 }
 
 .work-pogress {
-  background-color: #141a29;
+  background-color: #111;
   padding-top: 87px;
   padding-bottom: 120px;
 }
@@ -11031,7 +11031,7 @@ blockquote {
 }
 
 .about-three-mission {
-  background-color: #141a29;
+  background-color: #111;
   margin-top: -100px;
   padding-top: 187px;
   padding-bottom: 120px;
@@ -16371,7 +16371,7 @@ blockquote {
 
 .home-three-benefits-card h3 {
   font-size: 18px;
-  color: #1a1a3a;
+  color: #111;
   line-height: 1.4;
   margin: 0;
 }
@@ -16495,7 +16495,7 @@ blockquote {
 .home-one-project-heading {
     font-size: 19px !important;
     font-weight: 600 !important;
-    color: #060F1A;
+    color: #111;
     margin: 0 !important;
     line-height: 1.2;
     white-space: nowrap; 
@@ -16573,7 +16573,7 @@ blockquote {
 .home-one-project-heading {
     font-size: 19px !important;
     font-weight: 600 !important;
-    color: #060F1A;
+    color: #111;
     white-space: nowrap;
     display: block;
 }
@@ -16632,7 +16632,7 @@ blockquote {
     display: inline-block;
     padding: 12px 30px;
     background-color: #FFBB5C;
-    color: #060F1A;
+    color: #111;
     text-decoration: none;
     font-weight: 600;
     border-radius: 5px;
@@ -16693,7 +16693,7 @@ blockquote {
 
 .social-link:hover {
     background-color: #FFBB5C;
-    color: #060F1A;
+    color: #111;
 }
 
 .footer-bottom {

@@ -8272,7 +8272,7 @@ blockquote {
 }
 
 .overlay {
-  background-image: linear-gradient(#0000, #060f1acc);
+  background-image: linear-gradient(#0000, #111);
   position: absolute;
   inset: 0%;
 }
